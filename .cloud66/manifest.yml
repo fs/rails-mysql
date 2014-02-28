@@ -1,20 +1,7 @@
-development:
-    rails: 
-        server: 
-            extra_packages: 
-                - atop
-                - chrony
-                
-staging:
-    rails: 
-        server: 
-            extra_packages: 
-                - atop
-                - chrony
-                
-production:
-    rails: 
-        server: 
-            extra_packages: 
-                - atop
-                - chrony                
+production: 
+  rails: 
+    server:
+      unique_name: rails-server
+      extra_packages: 
+        - atop
+        - chrony
